@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MV Audio Tour",
+    "slug": "mv-native-audio-tour",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "ios": {
+      "bundleIdentifier": "com.adityasudhakar.mvaudiotour",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MV Audio Tour uses your location to announce nearby route points while you drive.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "MV Audio Tour uses background location to announce route points while Google Maps is open.",
+        "NSLocationAlwaysUsageDescription": "MV Audio Tour uses background location to announce route points while Google Maps is open.",
+        "UIBackgroundModes": [
+          "location",
+          "audio"
+        ]
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "isIosBackgroundLocationEnabled": true
+        }
+      ]
+    ]
+  }
+}
