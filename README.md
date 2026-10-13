@@ -16,7 +16,7 @@ The built-in demo queues three real narrations without requesting location acces
 
 Listen to the same bundled samples directly:
 
-- [Ferry Building][assets_narration_ferry-building.mp3](https://github.com/user-attachments/files/33366323/assets_narration_ferry-building.mp3)
+- [Ferry Building](https://github.com/user-attachments/files/33366323/assets_narration_ferry-building.mp3)
 
 - [Golden Gate Bridge](assets/narration/golden-gate-bridge.mp3)
 - [Twin Peaks](assets/narration/twin-peaks.mp3)
